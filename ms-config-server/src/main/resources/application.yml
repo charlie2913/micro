@@ -1,0 +1,56 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/charlie2913/server-config.git
+          default-label: main
+          ignore-local-ssh-settings: true
+          hostKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDcqjWjbM9vA/sIvvvdCsIH4uURVJryJ6Lkz1NV3JyXrsvFQqfTFl7ZdKvhGhSx/qWl1mbJIJKmbKXmmq+BxDOMAMdaPzsnChFmxFL4Sx9Fls5g70Fs7G4qBDHNi1jghfjiY2yX82IObjHCZhXo4Zc1+N+gBHORkmHldsgTajlRvqXT1l28ZZi+ur1OSOqAbQnBbxyz7izA1MI6CqXpe5e5YkO3ZlQ5kC3JI6aLm2nBSRmCDFEoM+Qxk7HIe5BA8pnXD3XrkStEQayCQ6UYlP/uCxPYvxQM1fWABXP1jxoW9OVJBrXDdf3tBD86XxKRZt4Wis7galb4ruThB7ZEJnBmZiB8Lhgg5QAzTahJcJS7J78OzEw5NX7/MQzppeyFjmNgoEYVYGacS2zRvBA7wNfrjsPc1wfDvukKoCblZUQ9VkZqwsHmB4gKP+VDrD+OuY8AWWQyMYEHOvcV0BPdWMg1HdshOFgrxlBjEywyU6a5eeQtvAaImO8J5oGD7E8zbYc= carlos camargo@LAPTOP-1NNI7QD2
+          hostKeyAlgorithm: ssh-rsa
+          privateKey: |
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            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
+            -----END OPENSSH PRIVATE KEY-----
+  application:
+    name: ms-config-server
+encrypt:
+  key: MUBiybMIJNkJ$%blKNjgFV#EBljhbkj
+
